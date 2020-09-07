@@ -10,7 +10,7 @@
   <HighResolutionIconUrl DefaultValue="https://florimond.github.io/outlook-mail-client-extension/assets/odoo-80.png"/>
   <SupportUrl DefaultValue="https://www.odoo.com/help"/>
   <AppDomains>
-    <AppDomain>https://florimond.github.io/outlook-mail-client-extension</AppDomain>
+    <AppDomain>https://florimond.github.io</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
