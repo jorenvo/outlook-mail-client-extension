@@ -31,6 +31,7 @@ class Contact extends React.Component<ContactProps, ContactState> {
   
   render() {
     const profileCardData: ProfileCardProps = {
+        domain: undefined,
         name: this.context.partner.name,
         initials: this.context.partner.getInitials(),
         icon: this.context.partner.image ? "data:image;base64, " + this.context.partner.image : undefined,
@@ -54,9 +55,7 @@ class Contact extends React.Component<ContactProps, ContactState> {
             </div>
         </div>
         
-        <div className='bounded-tile'>
-            <ProfileCard {...profileCardData} />
-        </div>
+        <ProfileCard {...profileCardData} />
       </React.Fragment>;
   }
 }
